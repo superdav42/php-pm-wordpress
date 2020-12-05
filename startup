@@ -1,0 +1,1 @@
+XDEBUG_CONFIG=1 php  vendor/bin/ppm start --debug 1 --workers 1 --bridge=MyApp\MyBridge --bootstrap=MyApp\MyBootstrap --logging 1 --static-directory web --max-execution-time 0 --app-env production

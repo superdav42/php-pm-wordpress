@@ -1,0 +1,11 @@
+--- wp-includes/template-orig.php	2020-12-04 14:44:07.000000000 -0700
++++ wp-includes/template.php	2020-12-05 09:29:54.653021101 -0700
+@@ -727,7 +727,7 @@
+ 	}
+ 
+ 	if ( $require_once ) {
+-		require_once $_template_file;
++		require $_template_file;
+ 	} else {
+ 		require $_template_file;
+ 	}
